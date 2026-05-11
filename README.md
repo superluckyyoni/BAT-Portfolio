@@ -29,7 +29,11 @@
 ![HTML 리포트](screenshots/02_html_report.png)
 
 ### 디스코드 자동 알림
+**테스트 전체 통과 시**
 ![디스코드 알림](screenshots/03_discord_alert.png)
+
+**실패 항목 발생 시**
+![디스코드 실패 알림](screenshots/04_discord_fail.png)
 
 ## 실행 방법
 
