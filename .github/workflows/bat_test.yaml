@@ -1,0 +1,25 @@
+name: BAT 자동화 테스트
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Python 설치
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: 라이브러리 설치
+      run: pip install pytest pytest-html requests python-dotenv
+
+    - name: BAT 테스트 실행
+      env:
+        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      run: python -m pytest test_bat.py -v --html=report.html --self-contained-html
