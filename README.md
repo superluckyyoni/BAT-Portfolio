@@ -17,6 +17,17 @@
 - **디스코드 자동 알림**: 테스트 완료 시 결과를 디스코드 채널로 자동 전송
 - **HTML 리포트 자동 생성**: 테스트 결과를 시각적으로 확인 가능
 
+## 실행 결과
+
+### 터미널 테스트 결과
+![터미널 결과](screenshots/01_test_result.png)
+
+### HTML 리포트
+![HTML 리포트](screenshots/02_html_report.png)
+
+### 디스코드 자동 알림
+![디스코드 알림](screenshots/03_discord_alert.png)
+
 ## 실행 방법
 
 ### 설치
