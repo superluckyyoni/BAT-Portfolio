@@ -41,7 +41,7 @@ def test_1_앱_정상실행():
 
 def test_2_메인메뉴_진입():
     """메인메뉴까지 정상 진입되는지"""
-    assert check_main_menu() == False
+    assert check_main_menu() == True
 
 def test_3_로그인_성공():
     """정상 계정으로 로그인 성공하는지"""
@@ -109,7 +109,7 @@ def check_map_transition(from_map, to_map):
 
 def test_7_퀘스트_수락():
     """퀘스트가 정상적으로 수락되는지"""
-    assert check_quest_accept(101) == False
+    assert check_quest_accept(101) == True
 
 def test_8_퀘스트_연결():
     """완료 후 다음 퀘스트로 이어지는지"""
