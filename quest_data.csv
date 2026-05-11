@@ -1,0 +1,6 @@
+quest_id,quest_name,reward_gold,reward_exp,next_quest_id,has_branch
+101,어둠의 시작,500,1000,102,False
+102,던전으로의 길,600,1200,103,False
+103,갈림길,700,1400,104,True
+104,보스와의 대면,800,1600,105,False
+105,최후의 전투,1000,2000,,False
