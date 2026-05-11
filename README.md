@@ -38,8 +38,10 @@ python -m pytest test_bat.py -v --html=report.html --self-contained-html
 - CSV 데이터 파싱
 
 ## 파일 구조
+```
 BAT_Portfolio/
 ├── test_bat.py       # 19개 테스트 케이스
 ├── quest_data.csv    # 퀘스트 기획 데이터
 ├── conftest.py       # 디스코드 알림
 └── README.md
+```
