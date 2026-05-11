@@ -1,5 +1,7 @@
 # 🎮 게임 BAT 자동화 포트폴리오
 
+![BAT 자동화 테스트](https://github.com/superluckyyoni/BAT-Portfolio/actions/workflows/bat_test.yml/badge.svg)
+
 ## 만들게 된 이유
 게임 QA로 일하면서 신규 빌드가 나올 때마다 BAT(Build Acceptance Test)를
 수작업으로 반복하는 것이 비효율적이라고 느끼게되어 만들게 되었습니다.
