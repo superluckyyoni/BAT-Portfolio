@@ -92,7 +92,9 @@ pip install pytest pytest-html requests python-dotenv
 
 ### 환경 설정
 `.env` 파일 생성 후 디스코드 웹훅 URL 입력
+```bash
 DISCORD_WEBHOOK_URL=your_webhook_url
+```
 
 ### 테스트 실행
 ```bash
