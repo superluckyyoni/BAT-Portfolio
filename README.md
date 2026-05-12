@@ -1,4 +1,4 @@
-# 🎮 게임 BAT 자동화 포트폴리오
+# pytest 기반 BAT 자동화 구조 샘플
 
 ![BAT 자동화 테스트](https://github.com/superluckyyoni/BAT-Portfolio/actions/workflows/bat_test.yaml/badge.svg)
 
